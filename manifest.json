@@ -1,0 +1,18 @@
+{
+  "name": "ForRent.com",
+  "description": "Apartment seekers can use ForRent.com as an apartment finder to conduct customized searches from thousands of apartment listings, property management companies and private property owners nationwide.",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "icons": {
+    "128": "appicon.png"
+  },
+  "app": {
+    "urls": [
+      "*://www.forrent.com/",
+      "*://forrent.com/"
+    ],
+    "launch": {
+      "web_url": "http://forrent.com"
+    }
+  }
+}
